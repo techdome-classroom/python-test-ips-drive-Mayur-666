@@ -26,9 +26,6 @@ def smallest_missing_positive_integer(nums: list[int]) -> int:
 
 
 
-print(smallest_missing_positive_integer([-1, -3, 4, 2]))
-
-
 
   
 
