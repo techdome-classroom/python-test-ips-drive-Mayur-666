@@ -7,7 +7,16 @@ def longest_substring(s: str) -> int:
     the length of the longest substring without repeating characters.
 
     """ 
-    pass
+    string = ""
+    maxi = 0
+    for i in s:
+        if i in string:
+            maxi = max(len(string), maxi)
+        else : 
+            string += i
+
+    return maxi
 
 
 
+print(longest_substring("abcabcbb"))
