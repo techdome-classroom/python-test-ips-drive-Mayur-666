@@ -18,3 +18,4 @@ def longest_substring(s: str) -> int:
 
     return maxi
 
+print()
