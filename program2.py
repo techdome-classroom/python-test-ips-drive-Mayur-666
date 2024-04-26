@@ -8,14 +8,12 @@ def longest_substring(s: str) -> int:
 
     """ 
     string = ""
-    maxi = 0
     for i in s:
         if i in string:
-            maxi = max(len(string), maxi)
             string = ""
             string += i
         else :
             string += i
 
-    return max(maxi,len(string)) 
+    return len(string)
 print(longest_substring("abcdefghijklmnopqrstuvwxyz"))
