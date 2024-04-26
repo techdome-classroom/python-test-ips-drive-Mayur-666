@@ -12,6 +12,7 @@ def longest_substring(s: str) -> int:
     for i in s:
         if i in string:
             maxi = max(len(string), maxi)
+            string = ""
         else : 
             string += i
 
