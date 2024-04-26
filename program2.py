@@ -17,5 +17,5 @@ def longest_substring(s: str) -> int:
         else :
             string += i
 
-    return maxi
+    return max() 
 print(longest_substring("abcdefghijklmnopqrstuvwxyz"))
