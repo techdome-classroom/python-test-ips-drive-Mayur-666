@@ -16,5 +16,5 @@ def longest_substring(s: str) -> int:
         else : 
             string += i
 
-    return maxi
+    return maxi+1
 
