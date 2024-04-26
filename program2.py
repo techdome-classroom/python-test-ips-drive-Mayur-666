@@ -18,4 +18,4 @@ def longest_substring(s: str) -> int:
             string += i
 
     return maxi
-print(longest_substring("pwwkew"))
+print(longest_substring("abcdefghijklmnopqrstuvwxyz"))
